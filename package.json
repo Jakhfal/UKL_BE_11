@@ -1,0 +1,37 @@
+{
+  "name": "ukl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.7",
+    "prisma": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/joi": "^17.2.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/nodemon": "^1.19.6"
+  }
+}
